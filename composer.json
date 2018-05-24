@@ -1,0 +1,26 @@
+{
+    "name": "skygdi/shopping-cart",
+    "description": "shopping cart",
+    "type": "library",
+    "require": {
+        "laravel/framework": "5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "skygdi\\ShoppingCart\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "skygdi\\ShoppingCart\\ShoppingCartProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter",
+            "email": "skygdi83@gmail.com"
+        }
+    ]
+}
